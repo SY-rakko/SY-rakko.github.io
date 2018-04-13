@@ -1,0 +1,286 @@
+body{
+  background-image: url(img/wood.png);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.header-sets{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align : center;
+  display: block;
+}
+header{
+  height: 80px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #e4e3df;
+  opacity: 0.9;
+  transition: all 1s;
+}
+header li:hover{
+  opacity: 0.7;
+}
+header img{
+  height: 60px;
+  float: left;
+  display: inline-block;
+}
+/*liをブロック化して中央揃えにする  ※floatは消す
+ ul{
+  text-align: center;
+}
+header li{
+  width:auto;
+  text-align : center;
+  display: inline-block;
+}
+*/
+ul{
+  text-align: center;
+}
+.header-list li{
+  width:auto;
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+  color: #383b42;
+  line-height: 80px;
+}
+.header-list a{
+    color: black;
+  text-decoration: none;
+}
+.top-wrapper{
+  display: block;
+  margin: 0 auto;
+  top: 100px;
+  height: 500px;
+  width: 1000px;
+  background-image: url(https://sk-imedia.com/wp-content/uploads/2015/05/osyarega1-e1430436385100.jpg);
+  background-size: cover;
+  position: relative;
+  margin-bottom: 50px;
+}
+.text-contents h1{
+  position: absolute;
+  top: 350px;
+  left: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: "Hiragino Mincho ProN";
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 3px #808080;
+}
+span{
+  color: green;
+}
+.pr-wrapper{
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.pr-box{
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+
+  border: 2px solid black;
+  background-color: #e4e3df;
+}
+.pr{
+  padding: 20px;
+}
+h2{
+  color: #383b42;
+  background-color: #e4a99f;
+  margin: 0;
+}
+footer{
+  text-align: center;
+
+}
+footer img{
+
+}
+footer p{
+  font-size: 10px;
+  color: white;
+}
+
+/*    margin: 0 auto;
+display: block;
+width: 1170px;
+height: 500px;*/
+
+/*about*/
+.about-img{
+  position: absolute;
+  /* ↓absolute要素を真ん中に設定 */
+  top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  margin: 0 auto;
+  width: 1040px;
+  height: 540px;
+  padding:20px;
+
+}
+.about-box{
+  position: absolute;
+  /* ↓absolute要素を真ん中に設定 */
+  top: 70px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  margin: 50px auto;
+  width: 1000px;
+  height: 540px;
+  display: block;
+  background: #FFF url("img/hair-salon.png");
+  padding: 20px;
+
+  text-align: center;
+  color: black;
+}
+.about-box p{
+  font-size: 17px;
+}
+.border{
+display: block;
+border-bottom: solid;
+width: 400px;
+margin: 10px;
+margin: 0 auto;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.about-box span{
+  color: #ff1493;
+}
+footer .container{
+  margin: 0 auto;
+}
+.about-footer{
+  position: absolute;
+top: 750px;
+width: 100%;
+}
+/* access */
+.background-white{
+  width: 1000px;
+  height: 100%;
+  top: 70px;
+  background-color: white;
+  opacity: 0.9;
+  border: solid 1px white;
+  position: relative;
+  margin: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+.map-contents{
+  width: 900px;
+  height: 250px;
+  margin: 0 auto;
+}
+  .map-contents img{
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: solid 1px black;
+}
+.map-contents h3{
+  text-align: left;
+}
+/* ※後でdisplay:table化させる　menu */
+.menu-contents{
+  width: 100%;
+}
+.menu-contents img{
+  text-align: center;
+}
+.menu-content{
+  width: 20%;
+  float: left;
+}
+.menu-content img{
+    width: 180px;
+    height: 200px;
+  }
+.menu-content p{
+      width: 180px;
+      font-family: serif;
+      display: inline-block;
+      text-align: center;
+    }
+.menu-content h3{
+  width: 180px;
+  vertical-align: middle;
+}
+h3,.explanation{
+      text-align: center;
+    }
+.explanation{
+  font-size: 18px;
+  font-family: "Hiragino Kaku Gothic ProN";
+  text-align: center;
+
+}
+.clear-element {
+  clear: both;
+}
+/* staff */
+.staff{
+  width: 900px;
+  height: 200px;
+  padding: 20px;
+}
+.staff img{
+  width: 200px;
+  hegiht: 200px;
+}
+.staff h3{
+  text-align: left;
+  margin: 0;
+}
+.staff p{
+  margin: 0;
+}
+/* contact */
+.form{
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.form th{
+  padding: 0 20px;
+}
+.btn{
+  display: inline-block;
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+table{
+  table-layout:fixed;
+}
+table img{
+  width: 180px;
+}
+.contents{
+  padding: 20px 0;
+}
