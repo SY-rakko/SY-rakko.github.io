@@ -1,3 +1,2 @@
 # SY-rakko.github.io
-架空の美容院サイトBEATY USSON
-file:///C:/Users/sakurako/Desktop/HP_create1/index.html
+架空の美容院サイトBEATY USSON(https://sy-rakko.github.io/)
