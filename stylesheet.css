@@ -139,7 +139,7 @@ height: 500px;*/
   width: 1040px;
   height: 540px;
   padding:20px;
-
+  padding-top: 0;
 }
 .about-box{
   position: absolute;
