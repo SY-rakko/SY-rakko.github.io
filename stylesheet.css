@@ -3,7 +3,7 @@
 }
 
 body{
-  background-image: url(SY-rakko.github.io/wood.png);
+  background-image: url("SY-rakko.github.io/wood.png");
   margin: 0;
   padding: 0;
 }
@@ -150,7 +150,7 @@ height: 500px;*/
   width: 1000px;
   height: 540px;
   display: block;
-  background: #FFF url("img/hair-salon.png");
+  background: #FFF url("SY-rakko.github.io/hair-salon.png");
   padding: 20px;
   padding-top: 0;
 
